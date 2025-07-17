@@ -320,6 +320,8 @@ body {
     color: var(--white);
     text-transform: uppercase;
     letter-spacing: 3px;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(151, 0, 189);
 }
 
 .highlight-text {
