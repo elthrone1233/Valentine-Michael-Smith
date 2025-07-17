@@ -6,14 +6,14 @@
 }
 
 :root {
-    --primary-blue: #8c00ff;
+    --primary-blue: #b300fa;
     --secondary-blue: #a300cc;
     --dark-blue: #001122;
     --black: #000000;
     --dark-gray: #0a0a0a;
     --light-gray: #1a1a1a;
     --white: #ffffff;
-    --cyan: #ff00ff;
+    --cyan: #ffffff;
     --neon-blue: #5c005c;
     --glow-blue: rgba(0, 212, 255, 0.3);
     --glow-cyan: rgba(0, 255, 255, 0.3);
@@ -1524,8 +1524,10 @@ body {
 
 .hero-logo-title {
     font-family: 'Orbitron', monospace;
-    font-size: 36px;
+    font-size: 45px;
     font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(255, 255, 255);
     color: var(--primary-blue);
     text-shadow: 0 0 30px var(--glow-blue);
     margin: 0;
